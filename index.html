@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Cyber</title>
+    <!-- BS5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Work+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- VENO BOX -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+
+    <header class="headerFixed py-2">
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg py-0">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuHeader"
+                    aria-controls="menuHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menuHeader">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                        <li class="nav-item active">
+                            <a class="nav-link " aria-current="page" href="#">mon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WHAT'S ON</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHORTCODES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">today</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- HEADER -->
+    <header class="container-lg header">
+        <div class="header__top d-flex justify-content-end py-3 align-items-center">
+            <div class="header__today pe-3">
+                <i class="fa-solid fa-phone pe-3 fs-6"></i>
+                <a href="tel:0961051014 " class="pe-2 text-decoration-none fs-6 header_phone">096.105.1014</a>
+            </div>
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass fs-6"></i>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg py-0">
+
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuHeader"
+                aria-controls="menuHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menuHeader">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="#">mon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WHAT'S ON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHORTCODES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">today</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+    <!-- CAROUSEL -->
+    <section class="carousel">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/hero-1.jpg" alt="hero-1" class="">
+                    <div class="carousel-caption container ">
+                        <p class="typeFilm my-0">ACTION, ADVENTURE, FANTASY</p>
+                        <h2 class="nameFilm">End of the World: Part II</h2>
+                        <p class="descFilm mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium
+                            lectorum. Mirum est notare quam littera gothica, quam nunc putamu.</p>
+                        <div class="capBottom d-flex">
+                            <span class="circle rounded-circle me-2">PG</span>
+                            <a href="#" class="rounded-pill d-flex align-items-center">
+                                <i class="fa-solid fa-play pe-2"></i>
+                                <span class="">
+                                    Play trailler
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/hero-2.jpg" alt="hero-2" class="">
+                    <div class="carousel-caption container">
+                        <p class="typeFilm my-0">ACTION, ADVENTURE, FANTASY</p>
+                        <h2 class="nameFilm">End of the World: Part II</h2>
+                        <p class="descFilm mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium
+                            lectorum. Mirum est notare quam littera gothica, quam nunc putamu.</p>
+                        <div class="capBottom d-flex">
+                            <span class="circle rounded-circle me-2">PG</span>
+                            <a href="#" class="rounded-pill d-flex align-items-center">
+                                <i class="fa-solid fa-play pe-2"></i>
+                                <span class="">
+                                    Play trailler
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/hero-3.jpg" alt="hero-2" class="">
+                    <div class="carousel-caption container">
+                        <p class="typeFilm my-0">ACTION, ADVENTURE, FANTASY</p>
+                        <h2 class="nameFilm">End of the World: Part II</h2>
+                        <p class="descFilm mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium
+                            lectorum. Mirum est notare quam littera gothica, quam nunc putamu.</p>
+                        <div class="capBottom d-flex">
+                            <span class="circle rounded-circle me-2">PG</span>
+                            <a href="#" class="rounded-pill d-flex align-items-center">
+                                <i class="fa-solid fa-play pe-2"></i>
+                                <span class="">
+                                    Play trailler
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <!-- NEW IN -->
+    <section class="newIn  section">
+        <div class="container">
+            <div class="heading">
+                <h2 class="title">NEW IN</h2>
+            </div>
+            <div class="newIn__films">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="newIn__item">
+                            <div class="card border-0">
+                                <div class="card-img position-relative">
+                                    <img src="./img/movie-1.jpg" class="card-img-top " alt="move-1">
+                                    <div class="card-caption text-center">
+                                        <a href="#" class="play-icon">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                        <a href="#" class="readMore">
+                                            read more
+                                        </a>
+                                        <p class="released">Released: 7 Mar, 2017</p>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center border-0">
+                                    <h3 class="card-title pb-2">The last post</h3>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="newIn__item">
+                            <div class="card border-0">
+                                <div class="card-img position-relative">
+                                    <img src="./img/movie-2.jpg" class="card-img-top " alt="move-2">
+                                    <div class="card-caption text-center">
+                                        <a href="#" class="play-icon">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                        <a href="#" class="readMore">
+                                            read more
+                                        </a>
+                                        <p class="released">Released: 7 Mar, 2017</p>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center border-0">
+                                    <h3 class="card-title pb-2">Dark and lonely</h3>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="newIn__item">
+                            <div class="card border-0">
+                                <div class="card-img position-relative">
+                                    <img src="./img/movie-3.jpg" class="card-img-top " alt="move-3">
+                                    <div class="card-caption text-center">
+                                        <a href="#" class="play-icon">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                        <a href="#" class="readMore">
+                                            read more
+                                        </a>
+                                        <p class="released">Released: 7 Mar, 2017</p>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center border-0">
+                                    <h3 class="card-title pb-2">Venture</h3>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="newIn__item">
+                            <div class="card border-0">
+                                <div class="card-img position-relative">
+                                    <img src="./img/movie-4.jpg" class="card-img-top " alt="move-4">
+                                    <div class="card-caption text-center">
+                                        <a href="#" class="play-icon">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                        <a href="#" class="readMore">
+                                            read more
+                                        </a>
+                                        <p class="released">Released: 7 Mar, 2017</p>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center border-0">
+                                    <h3 class="card-title pb-2">Hush</h3>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SHOWITME -->
+    <section class="showTime  container-md">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link active" id="pills-mon-tab" data-bs-toggle="pill" data-bs-target="#pills-mon"
+                    type="button" role="tab" aria-controls="pills-mon" aria-selected="true">
+                    <span>MON</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link" id="pills-tue-tab" data-bs-toggle="pill" data-bs-target="#pills-tue"
+                    type="button" role="tab" aria-controls="pills-tue" aria-selected="false">
+                    <span>TUE</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link" id="pills-today-tab" data-bs-toggle="pill" data-bs-target="#pills-today"
+                    type="button" role="tab" aria-controls="pills-today" aria-selected="false">
+                    <span>today</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link " id="pills-fri-tab" data-bs-toggle="pill" data-bs-target="#pills-fri"
+                    type="button" role="tab" aria-controls="pills-fri" aria-selected="true">
+                    <span>fri</span>
+
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link" id="pills-sat-tab" data-bs-toggle="pill" data-bs-target="#pills-sat"
+                    type="button" role="tab" aria-controls="pills-sat" aria-selected="false">
+                    <span>sat</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link" id="pills-sun-tab" data-bs-toggle="pill" data-bs-target="#pills-sun"
+                    type="button" role="tab" aria-controls="pills-sun" aria-selected="false">
+                    <span>sun</span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-mon" role="tabpanel" aria-labelledby="pills-mon-tab">
+                <div class="showtime__item">
+                    <div class="card mb-3 border-0">
+                        <div class="row g-0">
+                            <div class="col-md-2 col-4">
+                                <img src="./img/movie-5.jpg" class="img-fluid rounded-start w-100" alt="movie-5">
+                            </div>
+                            <div class="col-md-10 px-md-3">
+                                <div class="card-body ">
+                                    <p class="typeFilm">ACTION, ADVENTURE, FANTASY</p>
+                                    <h5 class="card-title">Captain America: The First Avenger</h5>
+                                    <p class="card-text">European mercenaries searching for black powder become
+                                        embroiled in the defense of It's over of China against a horde of monstrous
+                                        creatures.</p>
+                                    <a href="#">
+                                        FULL SYNOPSIS
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="showtime__runingtime">
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="showtime__viewing d-flex align-items-center">
+                                                    <div class="">
+                                                        <i class="fa-solid fa-clock"></i>
+                                                        <span>VIEWING TIMES</span>
+                                                    </div>
+                                                    <ul class="d-flex">
+                                                        <li class="active">
+
+                                                            10:30
+                                                        </li>
+                                                        <li>12:30</li>
+                                                        <li>14:30</li>
+                                                        <li>16:30</li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div
+                                                    class="showtime__mis text-end d-flex justify-content-lg-end align-items-center">
+
+                                                    <span class="pe-3">105 MINS</span>
+                                                    <p class="mb-0 ">15</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showtime__item">
+                    <div class="card mb-3 border-0">
+                        <div class="row g-0">
+                            <div class="col-md-2 col-4">
+                                <img src="./img/movie-6.jpg" class="img-fluid rounded-start w-100" alt="movie-6">
+                            </div>
+                            <div class="col-md-10 px-md-3">
+                                <div class="card-body ">
+                                    <p class="typeFilm">ACTION, ADVENTURE, FANTASY</p>
+                                    <h5 class="card-title">It's over</h5>
+                                    <p class="card-text">European mercenaries searching for black powder become
+                                        embroiled in the defense of It's over of China against a horde of monstrous
+                                        creatures.</p>
+                                    <a href="#">
+                                        FULL SYNOPSIS
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="showtime__runingtime">
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="showtime__viewing d-flex align-items-center">
+                                                    <div class="">
+                                                        <i class="fa-solid fa-clock"></i>
+                                                        <span>VIEWING TIMES</span>
+                                                    </div>
+                                                    <ul class="d-flex">
+                                                        <li class="active">
+
+                                                            10:30
+                                                        </li>
+                                                        <li>12:30</li>
+                                                        <li>14:30</li>
+                                                        <li>16:30</li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div
+                                                    class="showtime__mis text-end d-flex justify-content-lg-end align-items-center">
+
+                                                    <span class="pe-3">105 MINS</span>
+                                                    <p class="mb-0 ">15</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showtime__item">
+                    <div class="card mb-3 border-0">
+                        <div class="row g-0">
+                            <div class="col-md-2 col-4">
+                                <img src="./img/movie-7.jpg" class="img-fluid rounded-start w-100" alt="movie-7">
+                            </div>
+                            <div class="col-md-10 px-md-3">
+                                <div class="card-body ">
+                                    <p class="typeFilm">ACTION, ADVENTURE, FANTASY</p>
+                                    <h5 class="card-title">Captain America: The First Avenger</h5>
+                                    <p class="card-text">European mercenaries searching for black powder become
+                                        embroiled in the defense of It's over of China against a horde of monstrous
+                                        creatures.</p>
+                                    <a href="#">
+                                        FULL SYNOPSIS
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="showtime__runingtime">
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="showtime__viewing d-flex align-items-center">
+                                                    <div class="">
+                                                        <i class="fa-solid fa-clock"></i>
+                                                        <span>VIEWING TIMES</span>
+                                                    </div>
+                                                    <ul class="d-flex">
+                                                        <li class="active">
+
+                                                            10:30
+                                                        </li>
+                                                        <li>12:30</li>
+                                                        <li>14:30</li>
+                                                        <li>16:30</li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div
+                                                    class="showtime__mis text-end d-flex justify-content-lg-end align-items-center">
+
+                                                    <span class="pe-3">105 MINS</span>
+                                                    <p class="mb-0 ">15</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-tue" role="tabpanel" aria-labelledby="pills-tue-tab">tue</div>
+            <div class="tab-pane fade" id="pills-today" role="tabpanel" aria-labelledby="pills-today-tab">today</div>
+            <div class="tab-pane fade" id="pills-fri" role="tabpanel" aria-labelledby="pills-fri-tab">fri</div>
+            <div class="tab-pane fade" id="pills-sat" role="tabpanel" aria-labelledby="pills-sat-tab">sat</div>
+            <div class="tab-pane fade" id="pills-sun" role="tabpanel" aria-labelledby="pills-sun-tab">sun</div>
+        </div>
+    </section>
+    <!-- COMING SOON -->
+    <section class="comingSoon section ">
+        <div class="container">
+            <div class="heading">
+                <h2 class="title title--white">COMING SOON</h2>
+            </div>
+            <div class="commingSoon__item">
+                <div class="row py-5 align-items-center gx-5 ">
+                    <div class="col-sm-6">
+                        <div class="filmInfo">
+                            <p class="typeFilm">COMEDY, CRIME</p>
+                            <h3 class="nameFilm">The Hangover Part III</h3>
+                            <p>
+                                <span class="rating pe-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span><i class="fa-solid fa-calendar-days text-white"></i></span>
+                                <span class=" filmDate"> 30 Septemper 2020</span>
+                            </p>
+                            <p class="filmDesc">When one of their own is kidnapped by an angry gangster, the Wolf Pack
+                                must track down Mr. Chow, who has escaped from prison and is on the run.</p>
+                            <a href="" class="moreInfo">
+                                MORE INFO
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="https://youtu.be/96TelFMZwHc" class="videoFilm" data-vbtype="video">
+                            <div class="comingSoon__video">
+                                <img src="./img/slide-3-video.png" alt="slide video 3">
+                                <div class="comingSoon__icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MOVIE LIST -->
+    <section class="movieList  section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-4">
+                    <div class="movieList__item">
+                        <img src="./img/movie-9.jpg" alt="movie 9">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="movieList__item">
+                        <img src="./img/movie-8.jpg" alt="movie 8">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="movieList__item">
+                        <img src="./img/movie-11.jpg" alt="movie 11">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="movieList__item">
+                        <img src="./img/movie-13.jpg" alt="movie 13">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="movieList__item">
+                        <img src="./img/movie-12.jpg" alt="movie 12">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="movieList__item">
+                        <img src="./img/movie-14.jpg" alt="movie 14">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section text-center">
+        <p>Need help? Contact our support team on</p>
+        <a href="tel:0961051014">096 105 1014</a>
+    </section>
+    <!-- FOOTER -->
+    <footer class="section pb-0">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-lg-3">
+                    <div class="footer__item">
+                        <h3 class="footer__title">GET IN TOUCH</h3>
+                        <ul>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#">Give us feedback</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer__item">
+                        <h3 class="footer__title">ABOUT MOVIE STAR</h3>
+                        <ul>
+                            <li>
+                                <a href="#">About us</a>
+                            </li>
+                            <li>
+                                <a href="#">Find us</a>
+                            </li>
+                            <li>
+                                <a href="#">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer__item">
+                        <h3 class="footer__title">LEGAL STUFF</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Cookie policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer__item">
+                        <h3 class="footer__title">CONNECT WITH US</h3>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f pe-2"></i>Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter pe-2"></i>Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-google-plus-g pe-2"></i>Google +</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom ">
+                <p class="mb-0">2020 © Movie Cyber / Cybersoft</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQUREY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JS BS5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"
+        integrity="sha512-lzIDzaYCox5oeC0ymj6ho5fRdMrCYkhHfVEm3fySZStdwG85y9SxTcIFYYEUiW1KYbkfiInVFkGofRlYlkHgLw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JS SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- VENO BOX JS -->
+    <script src="./js/venobox.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: false,
+            effect: "fade",
+
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+                // autoplay: {
+                //     delay: 2500,
+
+                // },
+        });
+        new VenoBox({
+            selector: '.videoFilm',
+            navigation: false,
+            maxWidth: '800px',
+            autoplay: true
+        });
+        window.onscroll = function () {
+            //Code tạo hiệu ứng xuất hiện thanh màu đen khi scroll
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                // translate(-50%,0)
+                document.querySelector(".headerFixed").style.transform = "translate(0%,0)";
+            } else {
+                document.querySelector(".headerFixed").style.transform = "translate(0%,-100%)";
+            }
+        }
+        document.do
+    </script>
+</body>
+
+</html>
